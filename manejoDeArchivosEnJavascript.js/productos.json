@@ -1,0 +1,12 @@
+[
+  {
+    "title": "computadora",
+    "price": 1000,
+    "id": 1
+  },
+  {
+    "title": "escritorio",
+    "price": 500,
+    "id": 2
+  }
+]
