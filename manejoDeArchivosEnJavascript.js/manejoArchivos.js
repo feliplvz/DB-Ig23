@@ -75,6 +75,17 @@ class contenedor {
   }
 }
 
+
+  getCatchByID = async () => {
+    let stock2 = await this.getAll()
+    try {
+      let filter2 = stock.filter2((producto) => producto.id != number)
+      await fs.promises.writeFile(this.path, JSON.parte('[]'))
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
 let path = new contenedor('productos.json')
 
 path.save('computadora', 1000)
